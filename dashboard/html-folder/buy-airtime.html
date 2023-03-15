@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>buy airtime</title>
+    <link rel="icon" href="../FAVICON -edit.png">
+    <link
+      rel="stylesheet"
+      href="../fontawesome-free-6.1.2-web/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../dashboard-styles/buy-airtime.css" />
+  </head>
+  <body>
+    <div class="left">
+      <nav>
+        <div class="username">
+            <img src="./" alt="">
+            <h4>Welcome</h4>
+            <p class="name">Marvellous</p>
+        </div>
+        <div class="navigations">
+            
+            <a href=""><i class="fa-solid fa-desktop"></i>Dashboard</a>
+            <a href="./Pages/Buy-Airtime.html"><i class="fa-sharp fa-solid fa-mobile"></i>Buy Airtime</a>
+            <a href=""><i class="fa-solid fa-wifi"></i>Buy Data</a>
+            <a href=""><i class="fa-solid fa-money-bill-1-wave"></i>Money</a>
+            <a href=""><i class="fa-solid fa-user"></i>My Account</a>
+        </div>
+    </nav>
+    </div>
+    <div class="right">
+      <header>
+        <div class="logo">
+            <i class="fa-solid fa-bars fa-2x bar"></i>
+    
+            <img src="../Nav-Logo.png" alt="">
+    
+        <a href=""><i class=" fa-solid fa-user"></i>
+        <h4>Marvellous</h4><p>195</p>
+        </a>
+    
+        </div>
+        <a href="" class="Logout"><i class="fa-solid fa-arrow-right-from-bracket"></i>Logout</a>
+    </header>
+      <div class="buy-header">
+        <div class="dot"></div>
+        <p>buy airtime</p>
+        <div class="dot"></div>
+      </div>
+      <div class="balance-and-fund">
+        <p>balance: $0</p>
+        <button>fund wallet</button>
+      </div>
+      <form class="buy-data-form">
+        <fieldset>
+          <div class="space-down">
+            <label for="data-type">airtime type</label>
+            <select name="data-type" id="data-type" class="data-type">
+              <option value="" required disabled selected hidden>
+                --select--
+              </option>
+              <option value="">temmie smiless</option>
+              <option value="">temmie smiless</option>
+              <option value="">temmie smiless</option>
+              <option value="">temmie smiless</option>
+              <option value="">temmie smiless</option>
+            </select>
+          </div>
+          <div class="space-down">
+            <label for="network">network</label>
+            <select name="network" class="network" id="network">
+              <option value="" required disabled selected hidden>
+                --select--
+              </option>
+              <option value="">temmie smiless</option>
+              <option value="">temmie smiless</option>
+              <option value="">temmie smiless</option>
+              <option value="">temmie smiless</option>
+              <option value="">temmie smiless</option>
+            </select>
+          </div>
+          <div class="space-down">
+            <label for="phone">phone</label>
+            <input
+              placeholder=""
+              type="number"
+              id="phone"
+              class="phone"
+              name="phone"
+            />
+          </div>
+          <div class="space-down">
+            <label for="original">original amount</label>
+            <div class="special">
+              <p class="naira">NGN</p>
+              <input
+                placeholder=".0"
+                type="number"
+                id="original"
+                class="special-input"
+                name="original"
+              />
+              <p class="naira">.00</p>
+            </div>
+          </div>
+          <div class="space-down">
+            <label for="amount-to-pay">amount to pay</label>
+            <div class="special">
+              <p class="naira">NGN</p>
+              <input
+                placeholder="Amount"
+                type="number"
+                id="amount-to-pay"
+                class="special-input"
+                name="amount-to-pay"
+              />
+              <p class="naira">.00</p>
+            </div>
+          </div>
+          <div id="check-box">
+            <input
+              placeholder=""
+              type="checkbox"
+              name="check"
+              id="check"
+              class="check"
+            />
+            <label for="check">bypass number validator</label>
+          </div>
+          <p class="top-down">purchase</p>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,206 @@
+:root{
+    --primary-color:#70008f;
+    --secondary-color:#ffffff;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+html{
+    font-size: 92.5%;
+}
+main{
+    display: flex;
+}
+nav{
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    width: 25%;    
+    height: 100vh;
+    overflow: scroll;
+overflow-x:hidden;
+}
+nav .username{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    box-shadow:  0 5px 2px 0  rgba(255, 255, 255, 0.219);
+    border-radius: 20px;
+    cursor: pointer;
+    flex-direction: column;
+}
+.username h4{
+    color: rgb(165, 157, 157);
+    font-size: 25px;
+  text-transform: uppercase;
+}
+.username p{
+    display: flex;
+    color: white;
+    font-size: 18px;
+}
+nav .navigations{
+display: flex;
+flex-direction: column;
+padding-left:20px;
+padding-top:20px;
+gap: 50px;
+}
+.navigations a{
+    text-decoration: none;
+    color: white;
+    /* background-color: rgba(0, 0, 0, 0.363); */
+    padding: 20px ;
+    border-top-left-radius: 30px;
+    display: flex;
+    gap: 5px;
+    /* box-shadow: 0 0px 0 5px rgba(255, 255, 255, 0.671); */
+    border-bottom: 1px solid black;
+}
+#dashboard{
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.041);
+    overflow: scroll;
+    height:100vh ;
+overflow-x:hidden ;
+
+}
+#dashboard header{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--secondary-color);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    height: 15vh;
+    padding: 20px;
+    align-items: center;
+}
+header .logo .bar{
+    color: black;
+    align-self: center;
+    border: 2px solid black;
+padding: 5px 10px;
+border-radius: 10px;
+display: none;
+}
+header .logo{
+    display: flex;
+    height: 15vh;
+    justify-content: space-around;
+        z-index: 10px;
+    }
+
+.logo img{
+    height:120%;
+}
+.logo a{
+    display: flex;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.404);
+    text-decoration: none;
+    color: black;
+    padding: 10px 40px;
+    align-self: center;
+    border-radius: 50px;
+gap: 10px;
+}
+header a{
+    text-decoration: none;
+    display: flex;
+    color: var(--primary-color);
+    gap: 7px;
+}
+
+#payment{
+    display: flex;
+    flex-direction: column;
+}
+#payment a{
+text-decoration: none;
+background-color: var(--primary-color);
+color: var(--secondary-color);
+align-self: end;
+padding: 5px 20px;
+border-radius: 5px;
+margin-top: 10px;
+}
+#payment .wallet{
+    border: 1px solid;
+    display: flex;
+    width: 25%;
+    height: 16vh;
+    align-items: center;
+    padding: 0 10px;
+    box-shadow:  0 5px 4px 0 rgba(0, 0, 0, 0.363);
+    border: none;
+    background-color: #80808038;
+    justify-content: space-around;
+    border-radius: 30px;
+}
+
+.wallet i{
+    background-color: #70008f5b;
+    padding: 10px 10px;
+    border-radius: 50px;
+}
+.wallet-container{  
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3vh;
+}
+.added{ 
+    color: red;
+ }
+
+ /* SERVICES */
+ #services{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    place-items: center;
+ }
+ #services .services-section{
+    border-right: 1px solid black;
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#80808038;
+    margin-top: 9vh;
+ }
+ .services-section a{
+    color: blue;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+ }
+
+ #Pricing{
+    display: flex;
+    border: 1px solid black;
+    margin-top: 5vh;
+ }
+
+ .Pricing-Section{
+    width: 50%;
+    height: 50vh;
+overflow-x:hidden ;
+
+ }
+
+
+ #Trasactions{
+    overflow: scroll;
+    overflow-x:hidden;
+    width: 50%;
+}
+
+
+
